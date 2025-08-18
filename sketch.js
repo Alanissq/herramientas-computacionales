@@ -4,8 +4,8 @@ function setup() {
 }
 
 function draw() {
- d=random(10,60)
-  fill(66,random(27,23))
+ d=random(0,255)
+  fill(d,d,d)
   ellipse(mouseX, mouseY,d,d)
 
 }
